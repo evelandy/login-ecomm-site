@@ -1,0 +1,49 @@
+.menuMask {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    z-index: 50;
+}
+.navbarMenu {
+    font-size: 23px;
+    color: gray;
+    position: fixed;
+    /* right: 1rem;
+    top: .72rem; */
+    z-index: 50;
+
+    /* below is for adding box shadow below the hamburger menu, to remove delete below and uncomment the right and top above */
+    width: 100%;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    padding-bottom: .35rem;
+    padding-top: .5rem;
+    box-shadow: 0 1px 3px 0 gray;
+}
+.smMenuItemContainer {
+    position: fixed;
+    background-color: #000969;
+    top: 0;
+    left: 0;
+    width: 13rem;
+    height: 100%;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smMenuItemContainer > span {
+    margin-top: 1rem;
+}
+.smNavItem {
+    color: white;
+    text-decoration: none;
+}

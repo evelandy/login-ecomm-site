@@ -1,0 +1,12 @@
+.smBannerContainer {
+    padding-top: 2rem;
+}
+.smBannerContainer > span {
+    padding-bottom: 1rem;
+    background-image: linear-gradient(180deg, lightgray, white);
+}
+.smBannerImg {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
